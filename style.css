@@ -1,0 +1,381 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+}
+
+nav {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    padding: 0 50px;
+}
+
+.nav-left img {
+    width: 3.5rem;
+    padding-right: 7px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-left ul a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.image img {
+    background-size: cover;
+    width: 100%;
+}
+
+
+.fissi {
+    color: white;
+    padding: 70px;
+    font-size: 15px;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(headerbg.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 270px;
+
+}
+
+.laseen {
+    font-size: 32px;
+
+}
+
+.maseen {
+    font-size: 25px;
+}
+
+.jabeen {
+    font-size: 25px;
+}
+
+.haseen {
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    padding: 50px 20px;
+    gap: 9%;
+    overflow: scroll;
+}
+.container3 {
+    width: 100%;
+    overflow: hidden;
+}
+.rafeen{
+    min-width: 200px;
+}
+.rafeen img {
+    width: 100%;
+}
+
+.casanter{
+    width: 100%;
+    background-color: rgb(250, 246, 247);
+    padding: 50px 20px;
+}
+.kaseen{
+    display: flex;
+    justify-content: space-between;
+    border: none;   
+    border-bottom: 1px solid black ;
+    margin-bottom:20px ;
+}
+
+.childtiming{
+    display: flex;
+    justify-content: space-between;
+
+}
+.makoon{
+    border: none;   
+    border-left: 1px solid black ;
+    padding: 20px;
+}
+.takoon{
+    border: none;   
+    border-left: 1px solid black ;
+    padding: 20px;
+
+}
+.sukoon{
+    border: none;   
+    border-left: 1px solid black ;
+    padding: 20px;
+
+}
+.container1{
+    background-color:black;
+    display: flex;
+    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.berfi{
+    display: flex;
+    width: 60%;
+    padding: 50px 100px;
+    justify-content: center;
+    gap: 20px;
+}
+.berfi img{
+    width: 45%;
+}
+.moron{
+    justify-items: center;
+}
+
+.moron img{
+    width: 300px;
+    margin-top: 100px; 
+}
+.moron h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.moron button{
+   padding: 20px;
+   text-align: center;
+}
+.container2{
+
+
+}
+.turan h1{
+  text-align: center;
+  padding: 20px;
+
+}
+.caren{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     padding: 50px; 
+    justify-items: center;
+    gap: 70px;
+}
+.caren img{
+    width: 40%;
+}
+.caren p{
+    width: 100%;
+    
+
+}
+.aren{
+    width: 500px;
+    min-width: 250px;
+    height: 300px;
+    gap: 60px;
+}
+.aren img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aren1{
+    width: 500px;
+    min-width: 250px;
+    height: 300px;
+    gap: 10px;
+    padding: 20px;
+}
+.aren1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.faren img{
+    width: 160%;
+    height: fit-content;
+}
+.kait{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    font-size: 12px;
+}
+.kait img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.light img{
+    object-fit: contain;
+    width: 100vw;
+    height: 280px;
+
+}
+.lulu{
+     background-color: rgb(68, 64, 64);
+     justify-items: center;   
+}
+.lulu ul{
+    display: flex;
+   margin-top: 7px;
+    gap: 30px;
+    color: white;
+}
+.lulu ul li{
+ list-style: none;
+ 
+
+}
+.lulu img{
+   padding: 30px 0;
+   font-size: 12px;
+   gap: 20px;
+   justify-items:center ;
+}
+.trms{
+    margin-top: 7px;
+}
+.lulu p{
+    margin-top: 7px;
+    color: white;
+}
+
+.kait button{
+    /* position: relative; */
+    top: 260px;
+    right: 23px;
+    width: 114px;
+    height: 38px;
+
+}
+.kait img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.para{
+    position: relative;
+    left: 550px;
+    top:120px;
+}
+
+@media (max-width: 930px) {
+    .nav-left ul {
+    display: none;
+}
+.item{
+    flex-wrap: wrap-reverse;
+}
+.berfi{
+    width: 90%;
+    gap: 13px;
+}
+
+
+
+}
+@media (max-width: 680px) {
+    .galeen{
+        display: none;
+    }
+    .valeen{
+        display: none; 
+    }
+    .mubeen{
+         display: none;
+    }
+    .childtiming{
+        flex-direction: column ;
+    }
+    .takoon{
+        border-left: none;
+    }
+    .makoon{
+         border-left: none;
+    }
+    .sukoon{
+         border-left: none;
+    }
+
+}
+
+@media (max-width:600px){
+    .laseen h1{
+        font-size: 40px;
+    }
+    .maseen{
+        font-size: 20px;
+    }
+    .jabeen{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:390px){
+    .laseen h1{
+        height: 90px;
+    }
+    .maseen{
+       height: 70px;
+    }
+    .jabeen{
+        height: 40px;
+    }
+    .fissi{
+        height: 90px;
+    }
+   
+}
+
+@media (min-width:400px){
+    header nav{
+        padding:10px;
+    }
+
+}
