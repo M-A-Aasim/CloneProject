@@ -182,10 +182,7 @@ nav {
    padding: 20px;
    text-align: center;
 }
-.container2{
 
-
-}
 .turan h1{
   text-align: center;
   padding: 20px;
@@ -200,6 +197,7 @@ nav {
      padding: 50px; 
     justify-items: center;
     gap: 70px;
+    margin-bottom:85px ;
 }
 .caren img{
     width: 40%;
@@ -265,6 +263,7 @@ nav {
    margin-top: 7px;
     gap: 30px;
     color: white;
+    flex-wrap: wrap;
 }
 .lulu ul li{
  list-style: none;
@@ -357,25 +356,11 @@ nav {
 
 }
 
-@media (max-width:390px){
-    .laseen h1{
-        height: 90px;
-    }
-    .maseen{
-       height: 70px;
-    }
-    .jabeen{
-        height: 40px;
-    }
-    .fissi{
-        height: 90px;
-    }
-   
-}
+@media(max-width:390px){
 
-@media (min-width:400px){
-    header nav{
-        padding:10px;
+    .banner{
+        height: auto;
+        padding-bottom: 30%;
     }
-
 }
+ 
